@@ -1,6 +1,6 @@
 {
   "name": "console-override-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Библиотека для переопределения глобального console с сохранением логов в localStorage",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
