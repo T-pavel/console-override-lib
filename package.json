@@ -23,12 +23,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/paveltkacenko/console-override-lib.git"
+    "url": "https://github.com/T-pavel/console-override-lib"
   },
   "bugs": {
-    "url": "https://github.com/paveltkacenko/console-override-lib/issues"
+    "url": "https://github.com/T-pavel/console-override-lib/issues"
   },
-  "homepage": "https://github.com/paveltkacenko/console-override-lib#readme",
+  "homepage": "https://github.com/T-pavel/console-override-lib#readme",
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
