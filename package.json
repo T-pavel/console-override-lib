@@ -1,0 +1,47 @@
+{
+  "name": "console-override-lib",
+  "version": "1.0.0",
+  "description": "Библиотека для переопределения глобального console с сохранением логов в localStorage",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "console",
+    "override",
+    "localStorage",
+    "logging",
+    "debug",
+    "typescript"
+  ],
+  "author": "Pavel Tkachenko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paveltkacenko/console-override-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paveltkacenko/console-override-lib/issues"
+  },
+  "homepage": "https://github.com/paveltkacenko/console-override-lib#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^30.0.5",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
