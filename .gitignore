@@ -3,7 +3,10 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# instructions
 PUBLISH_INSTRUCTIONS.md
+TYPESCRIPT_FIX.md
 
 # Build output
 dist/
